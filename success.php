@@ -8,11 +8,10 @@
 
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title"><?php echo $_GET['firstName']. ' ' .   $_GET['lastName'] ?></h5>
-    <h6 class="card-subtitle mb-2 text-muted"><?php echo $_GET['speciality'] ?></h6>
-    <p class="card-text"><?php echo $_GET['speciality'] ?></p>
-    <p class="card-link"><?php echo $_GET['birthday'] ?></p>
-    <p class="card-link"><?php echo $_GET['email'] ?></p>
+    <h5 class="card-title"><?php echo $_POST['firstName']. ' ' .   $_POST['lastName'] ?></h5>
+    <h6 class="card-subtitle mb-2 text-muted"><?php echo $_POST['speciality'] ?></h6>
+    <p class="card-link"><?php echo $_POST['birthday'] ?></p>
+    <p class="card-link"><?php echo $_POST['email'] ?></p>
   </div>
 </div>
 

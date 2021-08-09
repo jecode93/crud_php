@@ -6,7 +6,7 @@
 
 <h1 class="text-center">Registration for IT conference</h1>
 
-<form method="get" action="success.php">
+<form method="post" action="success.php">
 
   <div class="mb-3">
     <label for="firstName" class="form-label">First name</label>
