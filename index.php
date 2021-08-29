@@ -27,10 +27,10 @@
   <div class="mb-3">
     <label for="speciality" class="form-label">Speciality</label>
     <select class="form-control" name="speciality" id="speciality">
-        <option>Database Admin</option>
-        <option>Software Developer</option>
-        <option>Web Administrator</option>
-        <option>Other</option>
+        <option value="1">Database Admin</option>
+        <option value="2">Software Developer</option>
+        <option value="3">Web Administrator</option>
+        <option value="4">Other</option>
     </select>
   </div>
 
