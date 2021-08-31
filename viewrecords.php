@@ -16,6 +16,7 @@ $results = $crud->getAttendees();
             <th>Email Adress</th>
             <th>Contact Number</th>
             <th>Specialty</th>
+            <th>Actions</th>
         </tr>
         <?php while($r = $results->fetch(PDO::FETCH_ASSOC)){ ?>
             <tr>
@@ -26,6 +27,7 @@ $results = $crud->getAttendees();
                 <td> <?php echo $r['email'] ?> </td>
                 <td> <?php echo $r['contact'] ?> </td>
                 <td> <?php echo $r['name'] ?> </td>
+                <td> <a href="view.php?id=<?php echo $r['attendee_id']?>" class="btn btn-primary">View</a>  </td>
             </tr>
         <?php }?>
     </table>
